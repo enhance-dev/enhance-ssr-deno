@@ -17,10 +17,6 @@ function Layout ({html}) {
   return html`<my-header></my-header><slot/><my-footer></my-footer>`
 }
 
-function Page ({html}) {
-  return 
-}
-
 Deno.test('can render', () => {
   let html = enhance({
     elements: {
