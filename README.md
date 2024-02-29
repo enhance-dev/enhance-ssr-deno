@@ -9,6 +9,13 @@ Enhance enables a web standards based workflow that embraces the platform by sup
 
 ## Usage
 
+Start the project:
+
+```
+deno task start
+```
+
+
 ```javascript
 import HelloWorld from './path/to/elements/hello-world.mjs'
 import enhance from 'jsr:@enhance/ssr'
