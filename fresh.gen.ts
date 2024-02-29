@@ -2,15 +2,15 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $enhanced_one from "./routes/enhanced/one.ts";
-import * as $enhanced_wasm from "./routes/enhanced/wasm.ts";
+import * as $enhance_js from "./routes/enhance-js.ts";
+import * as $enhance_wasm from "./routes/enhance-wasm.ts";
 
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/enhanced/one.ts": $enhanced_one,
-    "./routes/enhanced/wasm.ts": $enhanced_wasm,
+    "./routes/enhance-js.ts": $enhance_js,
+    "./routes/enhance-wasm.ts": $enhance_wasm,
   },
   islands: {},
   baseUrl: import.meta.url,
